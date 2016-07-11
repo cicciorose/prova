@@ -1,2 +1,2 @@
 # prova
-<strong>Info su Prova</strong>
+<strong style="color:red;">Info su Prova</strong>
