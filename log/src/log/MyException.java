@@ -95,7 +95,6 @@ public class MyException extends Exception  {
     
 	public static void main(String[] args)   {
 		
-
 		for(int i=0;i<10;i++)
 		try 
 		{
@@ -104,10 +103,7 @@ public class MyException extends Exception  {
 		}catch(MyException m){
 			m.printStackTrace();
 		}
-		
-		
-		
-	}
-	
+				
+	}	
 	
 }

@@ -84,23 +84,15 @@ public class CornerCalculate {
 			System.err.println("Errore formula X="+X+" Y="+Y+" alfa="+corner);
 			throw new IllegalArgumentException("Errore formula X="+X+" Y="+Y+" alfa="+corner);
 		}
-		Pair<Double,Double> p=new Pair<Double,Double>(X1,Y1);
-		
-		
-		
+		Pair<Double,Double> p=new Pair<Double,Double>(X1,Y1);		
 		return p;
-	}
-	
-	
-	
+	}	
 	
 	public static void main(String[] args) {
-		
-		
+			
 		Pair<Double,Double> p=newPointToCorner(0, 1, 1, 1);
 		System.out.println("x="+p.getKey()+" Y="+p.getValue());
-		
-		
+			
 	}
 
 }

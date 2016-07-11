@@ -35,9 +35,9 @@ public final class LogManager {
 			println(((MyException)e).toString(), fileName);
 		}
 		else{
-    	for(StackTraceElement s:((Exception) e).getStackTrace()){
-    		temp+=("\t at "+s.toString()+"\n");
-    	}
+			for(StackTraceElement s:((Exception) e).getStackTrace()){
+				temp+=("\t at "+s.toString()+"\n");
+		}
     	Date date=new Date();
     	println( e.toString()+" "+date.toString()+"\n"+temp,fileName);
 		}
@@ -102,21 +102,10 @@ public final class LogManager {
     	    }
     	    catch (IOException e)
     	    {
-    	  
-    	    	System.err.println(e.toString());
+    	      	System.err.println(e.toString());
     	    	e.printStackTrace();
     	    	LogManager.println(e, "log.txt");
-    	    
-    	    	
-    	    	
-    	    	
     	    }
-			
-		
-    	
-	}
-	
-	
-	
-	
+    	 
+	}	
 }
