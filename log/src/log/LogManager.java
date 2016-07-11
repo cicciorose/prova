@@ -38,8 +38,8 @@ public final class LogManager {
 			for(StackTraceElement s:((Exception) e).getStackTrace()){
 				temp+=("\t at "+s.toString()+"\n");
 		}
-    	Date date=new Date();
-    	println( e.toString()+" "+date.toString()+"\n"+temp,fileName);
+		Date date=new Date();
+		println( e.toString()+" "+date.toString()+"\n"+temp,fileName);
 		}
 	}
 	/**
