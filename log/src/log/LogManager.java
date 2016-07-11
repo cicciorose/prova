@@ -105,7 +105,7 @@ public final class LogManager {
     	  
     	    	System.err.println(e.toString());
     	    	e.printStackTrace();
-    	    	LogManager.println(e, "/home/francesco/programmi/log/log.txt");
+    	    	LogManager.println(e, "log.txt");
     	    
     	    	
     	    	

@@ -1,18 +1,12 @@
-the text
-more text
-the text
-more text
-the text
-more text
-the text
-more text
-aaa
-more text
-the text
-more text
-aaaaaa
-aaaaaa
-aaaaaa
-aaaaaa
-aaaaaa
-aaaaaa
+java.io.IOException: ci1235 Mon Jul 11 02:10:46 CEST 2016
+	 at log.LogManager.main(LogManager.java:101)
+
+java.io.IOException: ci1235 Mon Jul 11 02:10:47 CEST 2016
+	 at log.LogManager.main(LogManager.java:101)
+
+java.io.IOException: ci1235 Mon Jul 11 02:10:49 CEST 2016
+	 at log.LogManager.main(LogManager.java:101)
+
+java.io.IOException: ci1235 Mon Jul 11 02:11:23 CEST 2016
+	 at log.LogManager.main(LogManager.java:101)
+
