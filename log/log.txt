@@ -10,3 +10,6 @@ java.io.IOException: ci1235 Mon Jul 11 02:10:49 CEST 2016
 java.io.IOException: ci1235 Mon Jul 11 02:11:23 CEST 2016
 	 at log.LogManager.main(LogManager.java:101)
 
+java.io.IOException: ci1235 Mon Jul 11 11:25:29 CEST 2016
+	 at log.LogManager.main(LogManager.java:102)
+

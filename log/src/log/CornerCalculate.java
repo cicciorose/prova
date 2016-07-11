@@ -53,7 +53,7 @@ public class CornerCalculate {
 		double Y1;
 		
 //		if(corner<0){//TODO DA ABILITARE IN CASO DI ECCEZZIONE IllegalArgumentException CON VALORE DI ANGOLO NEGATIVO
-//			corner=360-Math.abs(corner);
+//			corner=360-Math.abs(corner);//cicciopasticcio
 //		}
 		
 		if(corner==0 || corner==360){
