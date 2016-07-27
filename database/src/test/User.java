@@ -14,6 +14,19 @@ public class User {
      * 0 87100 87036 cane nebbia ADMIN
 	 * */
 	
+	String username;
+	String email;
+	String password;
+	Date create_time;
+	String name;
+	String surname;
+	Date bornDate;
+	int user_category;
+	int born_cap;
+	int residence_cap;
+	String question;//domanda
+	String answer;//risposta
+	String referral;
 	
 	User( ResultSet resultSet) throws SQLException, ParseException{
 		this.username=resultSet.getString(1);
@@ -30,20 +43,6 @@ public class User {
 		this.answer=resultSet.getString(12);
 		this.referral=resultSet.getString(13);
 	}
-	
-	String username;
-	String email;
-	String password;
-	Date create_time;
-	String name;
-	String surname;
-	Date bornDate;
-	int user_category;
-	int born_cap;
-	int residence_cap;
-	String question;//domanda
-	String answer;//risposta
-	String referral;
 	
 	@Override
 	public String toString() {
