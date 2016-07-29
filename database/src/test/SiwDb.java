@@ -124,13 +124,13 @@ public class SiwDb {
 		try {
 			SiwDb s=new SiwDb();
 			
-//			for(User u:s.getUsersFromType("ROOT")){
-//				System.out.println(u);
-//				System.out.println("--------------------------------------------------------");
-//			}
-			System.out.println(s.get2MostPresentUser());
+			for(User u:s.getUsersFromType("ROOT")){
+				System.out.println(u);
+				System.out.println("--------------------------------------------------------");
+			}
+			//System.out.println(s.get2MostPresentUser());
 			
-		} catch (ClassNotFoundException /*| ParseException*/ e) {
+		} catch (ClassNotFoundException | ParseException e) {
 			e.printStackTrace();
 		}
 		
